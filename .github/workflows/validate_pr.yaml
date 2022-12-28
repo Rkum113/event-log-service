@@ -16,5 +16,4 @@ jobs:
       - name: Checkout Event-Log-Service Repo
         uses: actions/checkout@v2
      
-
       - run: mvn clean install -U -DskipTests
